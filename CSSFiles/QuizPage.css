@@ -1,0 +1,125 @@
+body {background-color: rgb(255, 255, 255);
+  margin: 0px;
+  }
+  
+
+   /* Navigation Bar CSS*/
+   
+   
+  .NavBar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  margin: 0px;
+  font-family: 'Noto Serif Display';
+  background-color: rgb(206, 53, 53);
+  } 
+
+a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+ul {list-style: none;
+}
+li {display: inline-block;
+    padding-right: 20px;
+
+}
+
+  /* Nav Logo*/
+
+  .centerimg  {display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 125px;
+
+    }
+
+   /* Main Body Text*/ 
+
+p {margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 30px;
+  text-align: center;
+  color: rgb(52, 52, 52); 
+  font-family: 'Noto Serif Display';
+  font-weight: 200;
+  font-size: 18px;}
+
+   /* Table with images */ 
+
+    table { margin: 20px;}
+
+    td { text-align: center;
+      padding: 5px;
+  color: rgb(0, 0, 0);  
+  font-family: 'Noto Serif Display';
+  font-weight: 600;
+}
+
+   /* Questions, Options and Answers*/ 
+
+    * {
+      box-sizing: border-box;
+    }
+
+    
+
+    .question{
+      font-weight: 600;
+      padding-left: 20px;
+      padding-top:  20px;
+      font-family: 'Noto Serif Display';
+      font-size: 14px;
+      text-align: center;
+    }
+    .answers {
+        margin-bottom: 20px;
+        padding-left: 20px;
+        font-family: 'Noto Serif Display';
+        font-size: 14px;
+        text-align: center;
+    }
+    #submit{
+      font-size: 20px;
+      background-color: rgb(206, 53, 53);
+      color: rgb(255, 255, 255);
+      border: 0px;
+      border-radius: 3px;
+      padding: 20px;
+      cursor: pointer;
+      margin-bottom: 20px;
+      margin-left: 650px;
+      margin-top: 20px;
+      font-family: 'Noto Serif Display';
+    }
+    #submit:hover{
+      background-color: #770000;
+    }
+
+    #results {
+      font-size: 20px;
+      color: rgb(0, 0, 0);
+      font-family: 'Noto Serif Display';
+    text-align: center;
+  padding-bottom: 20px;}
+
+
+  /* Footer */
+
+    footer {text-align: center;
+      color: rgb(255, 255, 255);
+      font-family: 'Noto Serif Display';
+      background-color: rgb(206, 53, 53);
+      font-size: 10px;
+      height: 100px;
+      justify-content: center;
+      padding-top: 8px;}
+
+  /* MOBILE ONLY */ 
+
+
+    @media only screen and (max-width: 600px) {p {margin-left: 2px; margin-right: 2px;}}
+    @media only screen and (max-width: 600px) {.NavBar {font-size: 12px;}}
+    @media only screen and (max-width: 600px) {.Questions {margin-left: 2px; margin-right: 2px;}}

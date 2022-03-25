@@ -1,0 +1,106 @@
+body {background-color: rgb(255, 255, 255);
+  margin: 0px;
+  }
+  
+  /* Navigation Bar CSS*/
+
+  .NavBar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  margin: 0px;
+  font-family: 'Noto Serif Display';
+  background-color: rgb(206, 53, 53);
+  } 
+
+a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+ul {list-style: none;
+}
+li {display: inline-block;
+    padding-right: 20px;
+
+}
+
+/* Nav Logo*/
+
+.centerimg  {display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 125px;
+
+    }
+
+/* Main Body Text*/ 
+
+p {margin-left: 200px;
+margin-right: 200px;
+margin-top: 20px;
+text-align: center;
+color: rgb(52, 52, 52); 
+font-family: 'Noto Serif Display';
+font-weight: 200;
+font-size: 14px;}
+ 
+
+  * {box-sizing:border-box}
+
+
+/* MAIN GALLERY */ 
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Column Containers */
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+/* Image Position */
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Footer */
+
+footer {text-align: center;
+  color: rgb(255, 255, 255);
+  font-family: 'Noto Serif Display';
+  background-color: rgb(206, 53, 53);
+  font-size: 10px;
+  height: 100px;
+  justify-content: center;
+  padding-top: 8px;
+  padding-bottom: 4%;}
+
+  /* MOBILE ONLY */
+
+/* Collapse columns into 2*/
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Stack columns */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+@media only screen and (max-width: 600px) {p {margin-left: 2px; margin-right: 2px;}}
+@media only screen and (max-width: 600px) {.NavBar {font-size: 12px;}}

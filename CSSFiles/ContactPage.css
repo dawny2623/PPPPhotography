@@ -1,0 +1,122 @@
+body {background-color: rgb(255, 255, 255);
+  margin: 0px;
+  }
+  
+  /* Navigation Bar CSS*/
+
+  .NavBar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  margin: 0px;
+  font-family: 'Noto Serif Display';
+  background-color: rgb(206, 53, 53);
+  } 
+
+a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+ul {list-style: none;
+}
+li {display: inline-block;
+    padding-right: 20px;
+
+}
+
+/* Nav Logo*/
+
+.centerimg  {display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 125px;
+
+    }
+
+
+/* Main Body Text*/ 
+
+p {margin-left: 200px;
+margin-right: 200px;
+margin-top: 20px;
+text-align: center;
+color: rgb(52, 52, 52); 
+font-family: 'Noto Serif Display';
+font-weight: 200;
+font-size: 14px;}
+ 
+.flexContainer { 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 100px;
+    
+
+}
+
+/* Footer */
+
+footer {text-align: center;
+  color: rgb(255, 255, 255);
+  font-family: 'Noto Serif Display';
+  background-color: rgb(206, 53, 53);
+  font-size: 10px;
+  height: 100px;
+  justify-content: center;
+  padding-top: 8px;}
+
+
+  * {box-sizing:border-box}
+
+
+  /* Contact form - Text fields */
+input[type=text], select, textarea {
+  width: 100%; 
+  padding: 12px; 
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px;
+  resize: vertical; 
+  font-family: 'Noto Serif Display';
+}
+
+/* Contact form - Submit button */
+input[type=submit] {
+  background-color: rgb(206, 53, 53);
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  
+}
+
+/* Colour alternate submit button */
+input[type=submit]:hover {
+  background-color: #770000;
+  font-family: 'Noto Serif Display';
+}
+
+/* Contact form - Background */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding-left: 25%;
+  padding-right: 25%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  width: 100%;
+  font-family: 'Noto Serif Display';
+  ;
+}
+
+/* MOBILE ONLY */
+
+@media only screen and (max-width: 600px) {background-image {max-width: auto}}
+@media only screen and (max-width: 600px) {h1 {font-size: 35px;}}
+@media only screen and (max-width: 600px) {p {margin-left: 2px; margin-right: 2px; font-size: 12px}}
+@media only screen and (max-width: 600px) {.NavBar {font-size: 12px;}}
